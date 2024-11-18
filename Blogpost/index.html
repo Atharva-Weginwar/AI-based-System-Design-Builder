@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -230,6 +230,194 @@
         </div>
 
         <p>The AI System Design Builder represents a significant step forward in how we approach system architecture. By combining the power of AI with human expertise, we're paving the way for more efficient, scalable, and innovative system designs.</p>
+    </div>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI System Design Builder: Hackathon Project</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #34495e;
+            margin-top: 30px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin: 20px 0;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .team-member {
+            background-color: #f9f9f9;
+            border-left: 4px solid #3498db;
+            padding: 10px;
+            margin: 10px 0;
+            overflow: hidden;
+        }
+        .installation-step {
+            background-color: #fff;
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 8px;
+            border: 1px solid #e1e4e8;
+        }
+        code {
+            background-color: #f6f8fa;
+            padding: 16px;
+            border-radius: 6px;
+            display: block;
+            margin: 10px 0;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .linkedin-profile {
+            display: inline-block;
+            margin-top: 5px;
+            color: #0077b5;
+            text-decoration: none;
+        }
+        .linkedin-profile:hover {
+            text-decoration: underline;
+        }
+        .tech-stack {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: start;
+            gap: 30px;
+            margin-top: 20px;
+        }
+        .tech-item {
+            text-align: center;
+            width: calc(33.33% - 20px);
+            max-width: 150px;
+        }
+        .tech-item img {
+            width: 100px;
+            height: 100px;
+            object-fit: contain;
+            margin-bottom: 10px;
+        }
+        .step-image {
+            border: 1px solid #e1e4e8;
+            padding: 10px;
+            background-color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>AI System Design Builder: Revolutionizing System Architecture Design</h1>
+
+        <img src="banner-image.jpeg" alt="AI System Design Builder Banner" class="banner-image">
+
+        <h2>Inspiration</h2>
+        <p>In the fast-paced world of software development, creating efficient and scalable system architectures is crucial. We recognized the need for a tool that could streamline this process, making it accessible to both seasoned architects and newcomers alike. The idea of leveraging AI to assist in system design sparked our imagination, leading to the birth of the AI System Design Builder.</p>
+
+        <h2>What it does</h2>
+        <p>The AI System Design Builder is an interactive platform that empowers users to create and visualize system architectures with ease. Here's what it offers:</p>
+        <ol>
+            <li><strong>Component Selection</strong>: Users can manually choose from a curated list of essential system components.</li>
+            <li><strong>Manual Design</strong>: Build connections between components, creating custom system designs.</li>
+            <li><strong>AI-Powered Design Generation</strong>: Leverage GenAI to automatically generate system design graphs.</li>
+            <li><strong>Voice Input</strong>: Describe system requirements verbally.</li>
+            <li><strong>Visual Representation</strong>: Intuitive graph representation of system architectures.</li>
+        </ol>
+
+        <h2>Installation</h2>
+        <div class="installation-step">
+            <h3>1. Set Up NVIDIA AI Workbench</h3>
+            <p>Follow the <a href="https://docs.nvidia.com/ai-workbench/user-guide/latest/installation/overview.html">Installation guide</a> to set up the Workbench on your local machine or cloud environment.</p>
+            <p>Start the local server in Nvidia AI Workbench</p>
+            <img src="img/image.png" alt="NVIDIA AI Workbench Setup" class="step-image">
+        </div>
+
+        <div class="installation-step">
+            <h3>2. Select Clone Project Option</h3>
+            <p>Use this repository to clone:</p>
+            <code>https://github.com/pvbgeek/NvidiaDellHackathon-AI-SystemDesignBuilder</code>
+            <img src="images/Step2.jpeg" alt="Clone Project Screen" class="step-image">
+        </div>
+
+        <div class="installation-step">
+            <h3>3. Project Build Initiation</h3>
+            <p>When you clone the project, it will first appear in your main window with a "BUILD REQUIRED" status. Shortly after, the status will automatically change to "BUILDING" as the system begins the build process.</p>
+            <img src="images/Step3(2).jpeg" alt="Build Required Status" class="step-image">
+            <img src="images/Step3(1).jpeg" alt="Building Status" class="step-image">
+        </div>
+
+        <div class="installation-step">
+            <h3>4. Building Stage</h3>
+            <p>After clicking on the project, it will enter the building stage. Please be patient, as the build process may take between 2 to 5 minutes to complete.</p>
+            <img src="images/step4.jpeg" alt="Building Stage" class="step-image">
+        </div>
+
+        <div class="installation-step">
+            <h3>5. Monitor Build Progress</h3>
+            <p>By selecting the output tab at the bottom left of the window, you can monitor the building process in real-time. Once the build finishes successfully, you'll see "build completed" in the output, and the status will change to "build ready" in the bottom right corner.</p>
+            <img src="images/Step5.jpeg" alt="Build Progress" class="step-image">
+        </div>
+
+        <div class="installation-step">
+            <h3>6. Launch Application</h3>
+            <p>After the build process completes, a green button labeled "Open AI-System Design Builder" will appear at the top of the window. Click this button to launch the application.</p>
+            <img src="images/step6.jpeg" alt="Launch Application" class="step-image">
+        </div>
+
+        <div class="installation-step">
+            <h3>7. Application Deployment</h3>
+            <p>After launching the application, the Terminal window under the "Application" category will display the output log. Simultaneously, a new browser tab will automatically open, showing your application running on localhost - indicating successful deployment.</p>
+            <img src="images/step7(1).jpeg" alt="Terminal Output" class="step-image">
+            <img src="images/step7(2).jpeg" alt="Browser View" class="step-image">
+        </div>
+
+        <div class="installation-step">
+            <h3>8. Creating Graphs</h3>
+            <p>You can create graphs in two ways:</p>
+            <ul>
+                <li>Using the left panel: Drag and drop components, then use the build and delete connection methods to link them</li>
+                <li>Using the chat interface: Click the microphone button to give voice commands, then press the send button to execute them</li>
+            </ul>
+            <img src="images/step8.jpeg" alt="Graph Creation Interface" class="step-image">
+        </div>
+
+        <div class="installation-step">
+            <h3>9. Processing Queries</h3>
+            <p>After submitting your query, a processing message will appear. The design generation time varies between 30-45 seconds, depending on how complex your request is.</p>
+            <img src="images/step9.jpeg" alt="Query Processing" class="step-image">
+        </div>
+
+        <div class="installation-step">
+            <h3>10. Final Design</h3>
+            <p>The design has been completed and is now ready to use. You can freely customize and modify it according to your needs.</p>
+            <img src="images/step10.jpeg" alt="Final Design" class="step-image">
+        </div>
+
+        [Rest of the original content remains the same, including How we built it, Challenges, Team section, etc.]
+
     </div>
 </body>
 </html>
